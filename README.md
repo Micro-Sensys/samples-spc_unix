@@ -1,5 +1,4 @@
 # samples-spc_unix / UNIX SPC sample codes
-
 This sample code is for **SPC** communication (devices in SPC mode) on devices running an UNIX OS.
 
 [Test LINK: SPC communication mode](../doc/communication-modes/spc)
@@ -30,14 +29,20 @@ Once the name is added to the code, start the debug/run session.
 	"spcRawDataReceived" will be called when other data is received
  3. Use READ/WRITE buttons to trigger the processes built in the script
 
-## Useful Links
+### Special Hints for Linux
+* Device has to be configured in USB VCP mode (ask microsensys for HowTo)
+	* To get VCP port name use:	
+	> dmesg | grep FTDI
+* To be able to communicate with RFID reader, the user must be part of the group "dialout".
+	* To add the user to the group use:
+	> sudo gpasswd --add [username] dialout
 
+## Useful Links
  - [JAR Library und API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
  - [Scripts](https://www.microsensys.de/downloads/DevSamples/Sample%20Codes/SPC/Additionals/Sample%20scripts/)
  - [iID® INTERFACE configuration tool (tool to upload script to reader)](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20interface%20config%20tool.zip)
 
 ## Contact
-
 * For coding questions or questions about this sample code, you can use [support@microsensys.de](mailto:support@microsensys.de)
 * For general questions about the company or our devices, you can contact us using [info@microsensys.de](mailto:info@microsensys.de)
 
