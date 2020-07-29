@@ -32,10 +32,10 @@ Once the name is added to the code, start the debug/run session.
 ### Special Hints for Linux
 * Device has to be configured in USB VCP mode (ask microsensys for HowTo)
 	* To get VCP port name use:	
-	> dmesg | grep FTDI
+		> dmesg | grep FTDI
 * To be able to communicate with RFID reader, the user must be part of the group "dialout".
 	* To add the user to the group use:
-	> sudo gpasswd --add [username] dialout
+		> sudo gpasswd --add [username] dialout
 
 ## Useful Links
  - [JAR Library und API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/microsensysRFID%20-%20jar%20library/)
