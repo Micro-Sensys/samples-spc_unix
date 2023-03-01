@@ -7,6 +7,7 @@ This repository contains sample codes for **SPC** communication (devices in SPC 
 You can find further details on SPC samples under the repository subfolders
  * [.NET](dotnet)
  * [Java](java)
+ * [RESTful](restful)
 
 ## Useful Links
 
