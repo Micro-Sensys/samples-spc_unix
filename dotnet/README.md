@@ -27,7 +27,7 @@ Import the project into your IDE, chose a project and launch it. First in the co
 * [NuGet Package page](https://www.nuget.org/packages/Microsensys.iIDReaderLibrary.SpcInterfaceControl/)
 * [API documentation](https://www.microsensys.de/downloads/DevSamples/Libraries/UNIX/iIDReaderLibrary%20-%20.NET%20library/)
 * [Scripts](https://www.microsensys.de/downloads/DevSamples/Sample%20Codes/SPC/Additionals/Sample%20scripts/)
-* [iID® INTERFACE configuration tool (tool to upload script to reader)](https://www.microsensys.de/downloads/CDContent/Install/iID%c2%ae%20interface%20config%20tool.zip)
+* [iID® INTERFACE configuration tool (tool to upload script to reader)](https://www.microsensys.de/downloads/SW_Install/iID%c2%aeinterface%20config%20tool/Setup%20iID%20interface%20config%20tool.exe)
 * GitHub *documentation* repository: [Micro-Sensys/documentation](https://github.com/Micro-Sensys/documentation)
 	* [communication-modes/spc](https://github.com/Micro-Sensys/documentation/tree/master/communication-modes/spc)
 
